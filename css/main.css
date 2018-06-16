@@ -1,0 +1,44 @@
+body {
+    font-family: 'Nova Slim';font-size: 22px;
+}
+
+
+.skew-1-1 {
+    -webkit-transform: skew(1deg, 1deg);
+    -ms-transform: skew(1deg, 1deg);
+    transform: skew(1deg, 1deg);    
+}
+
+.skew-0-1 {
+    -webkit-transform: skew(0deg, 1deg);
+    -ms-transform: skew(0deg, 1deg);
+    transform: skew(0deg, 1deg); 
+}
+
+.skew-1-0 {
+    -webkit-transform: skew(1deg, 0deg);
+    -ms-transform: skew(1deg, 0deg);
+    transform: skew(1deg, 0deg);   
+}
+
+.rskew-1-1 {
+    -webkit-transform: skew(-1deg, -1deg);
+    -ms-transform: skew(-1deg, -1deg);
+    transform: skew(-1deg, -1deg);    
+}
+
+.rskew-0-1 {
+    -webkit-transform: skew(0deg, -1deg);
+    -ms-transform: skew(0deg, -1deg);
+    transform: skew(0deg, -1deg); 
+}
+
+.rskew-1-0 {
+    -webkit-transform: skew(-1deg, 0deg);
+    -ms-transform: skew(-1deg, 0deg);
+    transform: skew(-1deg, 0deg);   
+}
+
+.bg-lightdark {
+    background-color: #1C1B1B;
+}
